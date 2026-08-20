@@ -1,17 +1,17 @@
 package com.ochoa.lab01holamundo
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.unit.sp
 import com.ochoa.lab01holamundo.ui.theme.Lab01HolaMundoTheme
 
@@ -37,6 +37,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
         Text(text = "¡Hola, soy $name!", fontSize = 24.sp)
         Text(text = "Curso: Programación en Móviles")
+        Button(onClick = {
+        }) {
+            Text(text = "Presióname")
+        }
     }
 }
 
