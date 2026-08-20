@@ -3,9 +3,9 @@ package com.ochoa.lab01holamundo.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFF81C784)
-val PurpleGrey80 = Color(0xFFAED581)
+val PurpleGrey80 = Color(0xFFBDE195)
 val Pink80 = Color(0xFFFFD54F)
 
-val Purple40 = Color(0xFF1B5E20)
-val PurpleGrey40 = Color(0xFF33691E)
-val Pink40 = Color(0xFFE65100)
+val Purple40 = Color(0xFF1B285E)
+val PurpleGrey40 = Color(0xFF344E7C)
+val Pink40 = Color(0xFF3A465E)
